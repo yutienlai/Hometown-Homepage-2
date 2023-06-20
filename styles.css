@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    border-radius: 10px;
+    border: 4px solid #03045E;
+    padding: 7px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 16px;   
+}
+
+.hero {
+    height: 300px;
+    background-image: url("taipei.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+h1 {
+   border-radius: 20px;
+    background: #F1FAEE;
+}
+
+h2 {
+    background: #A8DADC;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    color: white;
+    text-shadow: 0px 0px 3px black
+}
+
+#attractions {
+    background: #FEFAE0;
+    padding-top: 2px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activities-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.headings {
+    display: flex; 
+    justify-content: space-evenly;  
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;  
+    
+}
+
+#description {
+    width: 160px;
+}
+
+#activities {
+    width: 160px;
+}
+
+#guide-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.guide-card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background: #DAD7CD;
+    margin: 40px 0 40px 0;
+    border-radius: 10px;
+    border-bottom: 5px double red;
+    padding: 0 20px;
+}
+
+#guide-img {
+    width: 100px;
+    height: 100px; 
+}
+
+#bio {
+    margin-left: 10px;
+}
+
+#your-guide {
+    text-shadow: 1px 1px 4px white;
+}
